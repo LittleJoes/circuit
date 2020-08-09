@@ -15,7 +15,7 @@ module.exports = {
             .setColor(Number(process.env.BOT_EMBEDCOLOR))
             .setAuthor(message.author.username, message.author.displayAvatarURL())
             .setTitle('**Help Information**')
-            .setFooter('This bot has been written by jdwoj5butbetter#1132.')
+            .setFooter('Circuit')
             .setThumbnail(guild.iconURL())
             // .addField('Description', 'This bot is used to deliver products to users who buy them. It is also used for account linking and to get user information.', true)
         bot.commands.array().map(command => {
